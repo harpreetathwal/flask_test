@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+</head>
+<body>
+    <h1>Banks from dataset: {{url}}</h1>
+    <ul>
+        {% for bank in banks %}
+        <li>{{bank.bank_name}}</li>    
+        {% endfor %}
+    </ul>
+</body>
+</html>
